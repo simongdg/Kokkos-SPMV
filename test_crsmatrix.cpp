@@ -716,8 +716,8 @@ int test_crs_matrix_test_singlevec(int numRows, int numCols, int nnz, int test, 
       printf("nnz_per_row = %i \n", nnz_per_row);
 
 #if (KOKKOS_ENABLE_PROFILING)
-    //Kokkos::Profiling::autoTune(&team_size, &vector_length, nnz_per_row);
-    Kokkos::Profiling::autoTune_v2(&team_size, &vector_length, 8);
+    //Kokkos::Profiling::autoTune(&team_size, &vector_length, nnz_per_row, 10);
+    //Kokkos::Profiling::autoTune_v2(&team_size, &vector_length, 8);
 #endif
 
     int loop = 100;
