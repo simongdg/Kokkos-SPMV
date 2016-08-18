@@ -1,8 +1,8 @@
 # Kokkos-SPMV
 Sparce Matrix-vector Multiplication program use for Kokkos-tools development
 
-Dependencies:
-1)clone Trilinos(https://github.com/trilinos/Trilinos) 
+Dependencies: <br />
+1)clone Trilinos(https://github.com/trilinos/Trilinos) <br />
 2)cd Trilinos/packages/tpetra/kernels/src/impl
 3)touch TpetraKernels_config.h
 4)cd ../../../../
